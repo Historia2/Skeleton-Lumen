@@ -1,0 +1,116 @@
+@mixin btn-style($class, $background, $color) {
+    .btn.ibid.#{$class} {
+        background: $background;
+        border: 1px solid $background;
+        color: $color;
+        transition: .2s;
+
+        &:hover {
+            background: transparent;
+            border-color: $background;
+            color: $background;
+        }
+    }
+
+    .btn.ibid.#{$class}.invert {
+        background: transparent;
+        color: $background;
+        border: 1px solid $background;
+        transition: .2s;
+
+        &:hover {
+            background: $background;
+            color: $color;
+        }
+    }
+}
+
+.btn{
+    &.btn-link {
+        color: $primary;
+    }
+    &.ibid{
+        font-size: 12px;
+        color: #ffffff;
+        font-weight: 600;
+        line-height: 20px;
+        border-radius: 2px;
+        max-width: 140px;
+        &.wire{
+            border: 1px dashed #bbbbbb;
+            color: #bbbbbb;
+            line-height: 20px;
+            padding: 5px 10px;
+            text-align: center;
+            display: block;
+        }
+
+    }
+    
+    &.icon{
+        height: 80px;
+        background: #eee;
+        color: #aaaaaa;
+    }
+}
+
+.btn.hybrid{
+    span, svg{
+        height: 20px;
+        display: block;
+        float: left;
+    }
+
+    svg{ 
+        width: 20px;
+        margin-left: -5px;
+    }
+
+    span:nth-child(2){ margin-left: 2.5px; }
+}
+
+.btn-group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: stretch;
+    
+    .btn{
+        margin-right: 10px;
+    }
+
+    .btn.icon{
+        padding: 10px;
+        height: 80px;
+        line-height: 60px;
+        flex: 1;
+        // margin: 0px;
+        
+        &:hover{
+            background: #dddddd;
+        }
+
+        &.active{
+            background: #dddddd;
+        }
+    }
+}
+
+.btn-double{
+    display: flex;
+    justify-content: space-between;
+
+    .btn{
+        width: calc(50% - 5px);
+    }
+}
+
+
+@include btn-style("positive", $primary, #fff);
+@include btn-style("primary", $primary, #fff);
+@include btn-style("negative", $pp-4, #fff);
+@include btn-style("secondary", $pp-4, #fff);
+@include btn-style("green", green, #fff);
+@include btn-style("green", green, #fff);
+@include btn-style("gray", #cccccc, #999999);
+// @include btn-style("wire", #fff, #dddddd);

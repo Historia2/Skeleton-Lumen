@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Toyota Avanza VVTI",
+        "chartType": 0,
+        "axes": {
+            "x": "2015",
+            "y": "2015"
+        },
+        "filters": []
+    },
+    {
+        "name": "Homepage",
+        "chartType": 1,
+        "axes": {
+            "x": "200",
+            "y": "300"
+        },
+        "filters": []
+    }
+]

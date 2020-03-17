@@ -1,0 +1,93 @@
+// @import 'config';
+
+.container{
+    width: 100%;
+    min-height: 100%;
+}
+
+.login{
+    height: 100%;
+}
+
+.login-page{
+    background: url('https://img.wallpaper.sc/desktop/images/5k/thumbnail/desktop-pc-1920x1080-thumbnail_00185.jpg');
+    background-size: cover;
+    width: 100% !important;
+    min-height: 100%;
+    display: grid;
+    grid-template-areas: "desc sign";
+    grid-template-columns: 1fr 320px;
+}
+
+.desc{
+    background: linear-gradient(rgba(76, 53, 160, .74),rgba(29, 25, 68, 0.74));
+    grid-area: desc;
+    padding: 80px;
+    color: #eeeeee;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.desc .logo{
+    width: 160px;
+    margin-bottom: 120px;
+	filter: invert(75%);
+}
+
+.desc .logo img{
+    width: 100%;
+}
+
+.desc h1{
+    margin-bottom: 40px;
+}
+
+.desc p{
+    font-size: 20px;
+    line-height: 1.5;
+    width: 70%;
+}
+
+.sign-container{
+    background: #ffffff;
+    grid-area: sign;
+    widows: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 40px;
+}
+
+.sign-container .title{
+    line-height: 40px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.sign-container .image{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background: #eeeeee;
+    margin-bottom: 60px;
+}
+
+.sign-container .formGroup{
+    text-align: left;
+    width: 100%;
+}
+
+.form-check{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767.98px) { 
+    .login-page{
+        grid-template-columns: 1fr;
+        grid-template-areas: "desc" "sign";
+        
+    }
+
+}

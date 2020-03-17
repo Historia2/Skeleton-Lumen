@@ -1,0 +1,1341 @@
+{
+    "kota": [
+        {
+            "key": "",
+            "value": "Kota Lelang"
+        },
+        {
+            "key": "SURABAYA",
+            "value": "SURABAYA"
+        },
+        {
+            "key": "JAKARTA",
+            "value": "JAKARTA"
+        },
+        {
+            "key": "BANJARMASIN",
+            "value": "BANJARMASIN"
+        },
+        {
+            "key": "BANDUNG",
+            "value": "BANDUNG"
+        },
+        {
+            "key": "MEDAN",
+            "value": "MEDAN"
+        },
+        {
+            "key": "PALEMBANG",
+            "value": "PALEMBANG"
+        },
+        {
+            "key": "MAKASSAR",
+            "value": "MAKASSAR"
+        },
+        {
+            "key": "PAPUA",
+            "value": "PAPUA"
+        },
+        {
+            "key": "PEKANBARU",
+            "value": "PEKANBARU"
+        },
+        {
+            "key": "BALIKPAPAN",
+            "value": "BALIKPAPAN"
+        },
+        {
+            "key": "JAMBI",
+            "value": "JAMBI"
+        },
+        {
+            "key": "PONTIANAK",
+            "value": "PONTIANAK"
+        },
+        {
+            "key": "SANGATA",
+            "value": "SANGATA"
+        },
+        {
+            "key": "BATAM",
+            "value": "BATAM"
+        },
+        {
+            "key": "BALI",
+            "value": "BALI"
+        },
+        {
+            "key": "SAMARINDA",
+            "value": "SAMARINDA"
+        },
+        {
+            "key": "SUKABUMI",
+            "value": "SUKABUMI"
+        }
+    ],
+    "periode": [
+        {
+            "key": "",
+            "value": "Periode Lelang"
+        },
+        {
+            "key": 1,
+            "value": "1 Bulan"
+        },
+        {
+            "key": 2,
+            "value": "2 Bulan"
+        },
+        {
+            "key": 3,
+            "value": "3 Bulan"
+        },
+        {
+            "key": 4,
+            "value": "4 Bulan"
+        },
+        {
+            "key": 5,
+            "value": "5 Bulan"
+        },
+        {
+            "key": 6,
+            "value": "6 Bulan"
+        }
+    ],
+    "merk": [
+        {
+            "key": "",
+            "value": "Merk Kendaraan"
+        },
+        {
+            "key": "1700",
+            "value": "AUDI"
+        },
+        {
+            "key": "1747",
+            "value": "BIMANTARA"
+        },
+        {
+            "key": "1748",
+            "value": "BMW"
+        },
+        {
+            "key": "CHERY",
+            "value": "CHERY"
+        },
+        {
+            "key": "CHEVROLET",
+            "value": "CHEVROLET"
+        },
+        {
+            "key": "CHRYSLER",
+            "value": "CHRYSLER"
+        },
+        {
+            "key": "DAIHATSU",
+            "value": "DAIHATSU"
+        },
+        {
+            "key": "DATSUN",
+            "value": "DATSUN"
+        },
+        {
+            "key": "DODGE",
+            "value": "DODGE"
+        },
+        {
+            "key": "DOOSAN",
+            "value": "DOOSAN"
+        },
+        {
+            "key": "FAW",
+            "value": "FAW"
+        },
+        {
+            "key": "FORD",
+            "value": "FORD"
+        },
+        {
+            "key": "FOTON",
+            "value": "FOTON"
+        },
+        {
+            "key": "GEELY",
+            "value": "GEELY"
+        },
+        {
+            "key": "GOLDEN DRAGON",
+            "value": "GOLDEN DRAGON"
+        },
+        {
+            "key": "HINO",
+            "value": "HINO"
+        },
+        {
+            "key": "HITACHI",
+            "value": "HITACHI"
+        },
+        {
+            "key": "HONDA",
+            "value": "HONDA"
+        },
+        {
+            "key": "HYUNDAI",
+            "value": "HYUNDAI"
+        },
+        {
+            "key": "INFINITY",
+            "value": "INFINITY"
+        },
+        {
+            "key": "ISUZU",
+            "value": "ISUZU"
+        },
+        {
+            "key": "JAGUAR",
+            "value": "JAGUAR"
+        },
+        {
+            "key": "JEEP",
+            "value": "JEEP"
+        },
+        {
+            "key": "KIA",
+            "value": "KIA"
+        },
+        {
+            "key": "LAMBORGHINI",
+            "value": "LAMBORGHINI"
+        },
+        {
+            "key": "LEXUS",
+            "value": "LEXUS"
+        },
+        {
+            "key": "MAN TGS",
+            "value": "MAN TGS"
+        },
+        {
+            "key": "MAZDA",
+            "value": "MAZDA"
+        },
+        {
+            "key": "MERCEDES BENZ",
+            "value": "MERCEDES BENZ"
+        },
+        {
+            "key": "MITSUBISHI",
+            "value": "MITSUBISHI"
+        },
+        {
+            "key": "NISSAN",
+            "value": "NISSAN"
+        },
+        {
+            "key": "OPEL",
+            "value": "OPEL"
+        },
+        {
+            "key": "PEUGEOT",
+            "value": "PEUGEOT"
+        },
+        {
+            "key": "PROTON",
+            "value": "PROTON"
+        },
+        {
+            "key": "SCANIA",
+            "value": "SCANIA"
+        },
+        {
+            "key": "SUBARU",
+            "value": "SUBARU"
+        },
+        {
+            "key": "SUZUKI",
+            "value": "SUZUKI"
+        },
+        {
+            "key": "TATA",
+            "value": "TATA"
+        },
+        {
+            "key": "TIMOR",
+            "value": "TIMOR"
+        },
+        {
+            "key": "TOYOTA",
+            "value": "TOYOTA"
+        },
+        {
+            "key": "UD TRUCK",
+            "value": "UD TRUCK"
+        },
+        {
+            "key": "VOLKSWAGEN",
+            "value": "VOLKSWAGEN"
+        },
+        {
+            "key": "VOLVO",
+            "value": "VOLVO"
+        },
+        {
+            "key": "UD TRUCK",
+            "value": "UD TRUCK"
+        },
+        {
+            "key": "VOLKSWAGEN",
+            "value": "VOLKSWAGEN"
+        },
+        {
+            "key": "TOYOTA",
+            "value": "TOYOTA"
+        },
+        {
+            "key": "UD TRUCK",
+            "value": "UD TRUCK"
+        },
+        {
+            "key": "VOLKSWAGEN",
+            "value": "VOLKSWAGEN"
+        },
+        {
+            "key": "TOYOTA",
+            "value": "TOYOTA"
+        },
+        {
+            "key": "UD TRUCK",
+            "value": "UD TRUCK"
+        },
+        {
+            "key": "VOLKSWAGEN",
+            "value": "VOLKSWAGEN"
+        }
+    ],
+    "seri": [
+        {
+            "key": "",
+            "value": "Seri",
+            "parent": ""
+        },
+        {
+            "key": "A3",
+            "value": "A3",
+            "parent": "AUDI"
+        },
+        {
+            "key": "A4",
+            "value": "A4",
+            "parent": "AUDI"
+        },
+        {
+            "key": "A6",
+            "value": "A6",
+            "parent": "AUDI"
+        },
+        {
+            "key": "A7",
+            "value": "A7",
+            "parent": "AUDI"
+        },
+        {
+            "key": "A8",
+            "value": "A8",
+            "parent": "AUDI"
+        },
+        {
+            "key": "ALLROAD TURBO QUATTRO",
+            "value": "ALLROAD TURBO QUATTRO",
+            "parent": "AUDI"
+        },
+        {
+            "key": "Q7",
+            "value": "Q7",
+            "parent": "AUDI"
+        },
+        {
+            "key": "TT",
+            "value": "TT",
+            "parent": "AUDI"
+        },
+        {
+            "key": "ARYA",
+            "value": "ARYA",
+            "parent": "BIMANTARA"
+        },
+        {
+            "key": "CAKRA",
+            "value": "CAKRA",
+            "parent": "BIMANTARA"
+        },
+        {
+            "key": "NENGGALA",
+            "value": "NENGGALA",
+            "parent": "BIMANTARA"
+        }
+	  {
+            "key": "116I",
+            "value": "116I",
+            "parent": "BMW"
+        },
+        {
+            "key": "120I",
+            "value": "120I",
+            "parent": "BMW"
+        },
+        {
+            "key": "318I",
+            "value": "318I",
+            "parent": "BMW"
+        },
+        {
+            "key": "320I",
+            "value": "320I",
+            "parent": "BMW"
+        },
+        {
+            "key": "323CI",
+            "value": "323CI",
+            "parent": "BMW"
+        },
+        {
+            "key": "323I",
+            "value": "323I",
+            "parent": "BMW"
+        },
+        {
+            "key": "325CI",
+            "value": "325CI",
+            "parent": "BMW"
+        },
+        {
+            "key": "325I",
+            "value": "325I",
+            "parent": "BMW"
+        },
+        {
+            "key": "328CI",
+            "value": "328CI",
+            "parent": "BMW"
+        },
+        {
+            "key": "330CI",
+            "value": "330CI",
+            "parent": "BMW"
+        },
+        {
+            "key": "325CI",
+            "value": "325CI",
+            "parent": "BMW"
+        },
+        {
+            "key": "520I",
+            "value": "520I",
+            "parent": "BMW"
+        },
+        {
+            "key": "523I",
+            "value": "523I",
+            "parent": "BMW"
+        },
+        {
+            "key": "525I",
+            "value": "525I",
+            "parent": "BMW"
+        },
+        {
+            "key": "528I",
+            "value": "528I",
+            "parent": "BMW"
+        },
+        {
+            "key": "630I",
+            "value": "630I",
+            "parent": "BMW"
+        },
+        {
+            "key": "645CI",
+            "value": "645CI",
+            "parent": "BMW"
+        },
+        {
+            "key": "728I",
+            "value": "728I",
+            "parent": "BMW"
+        },
+        {
+            "key": "730I",
+            "value": "730I",
+            "parent": "BMW"
+        },
+        {
+            "key": "735I",
+            "value": "735I",
+            "parent": "BMW"
+        },
+        {
+            "key": "740I",
+            "value": "740I",
+            "parent": "bmw"
+        },
+        {
+            "key": "745I",
+            "value": "745I",
+            "parent": "BMW"
+        },
+        {
+            "key": "750LI",
+            "value": "750LI",
+            "parent": "BMW"
+        },
+        {
+            "key": "760LI",
+            "value": "760LI",
+            "parent": "BMW"
+        },
+        {
+            "key": "X1",
+            "value": "X1",
+            "parent": "BMW"
+        },
+        {
+            "key": "X3",
+            "value": "X3",
+            "parent": "BMW"
+        },
+        {
+            "key": "X4",
+            "value": "X4",
+            "parent": "BMW"
+        },
+        {
+            "key": "X5",
+            "value": "X5",
+            "parent": "BMW"
+        },
+        {
+            "key": "X6",
+            "value": "X6",
+            "parent": "BMW"
+        },
+        {
+            "key": "330CI",
+            "value": "330CI",
+            "parent": "BMW"
+        },
+        {
+            "key": "325CI",
+            "value": "325CI",
+            "parent": "BMW"
+        },
+        {
+            "key": "520I",
+            "value": "520I",
+            "parent": "BMW"
+        },
+        {
+            "key": "523I",
+            "value": "523I",
+            "parent": "BMW"
+        },
+        {
+            "key": "525I",
+            "value": "525I",
+            "parent": "BMW"
+        },
+        {
+            "key": "528I",
+            "value": "528I",
+            "parent": "BMW"
+        },
+        {
+            "key": "630I",
+            "value": "630I",
+            "parent": "BMW"
+        },
+        {
+            "key": "645CI",
+            "value": "645CI",
+            "parent": "BMW"
+        },
+        {
+            "key": "728I",
+            "value": "728I",
+            "parent": "BMW"
+        },
+        {
+            "key": "730I",
+            "value": "730I",
+            "parent": "BMW"
+        },
+        {
+            "key": "735I",
+            "value": "735I",
+            "parent": "BMW"
+        }
+    ],
+    "tahun": [
+        {
+            "key": "",
+            "value": "Tahun Kendaraan"
+        },
+        {
+            "key": 1994,
+            "value": "1994"
+        },
+        {
+            "key": 1995,
+            "value": "1995"
+        },
+        {
+            "key": 1995,
+            "value": "1995"
+        },
+        {
+            "key": 1996,
+            "value": "1996"
+        },
+        {
+            "key": 1997,
+            "value": "1997"
+        },
+        {
+            "key": 1998,
+            "value": "1998"
+        },
+        {
+            "key": 1999,
+            "value": "1999"
+        },
+        {
+            "key": 2000,
+            "value": "2000"
+        },
+        {
+            "key": 2001,
+            "value": "2001"
+        },
+        {
+            "key": 2002,
+            "value": "2002"
+        },
+        {
+            "key": 2003,
+            "value": "2003"
+        },
+        {
+            "key": 2004,
+            "value": "2004"
+        },
+        {
+            "key": 2005,
+            "value": "2005"
+        },
+        {
+            "key": 2006,
+            "value": "2006"
+        },
+        {
+            "key": 2007,
+            "value": "2007"
+        },
+        {
+            "key": 2008,
+            "value": "2008"
+        },
+        {
+            "key": 2009,
+            "value": "2009"
+        },
+        {
+            "key": 2010,
+            "value": "2010"
+        },
+        {
+            "key": 2011,
+            "value": "2011"
+        },
+        {
+            "key": 2012,
+            "value": "2012"
+        },
+        {
+            "key": 2013,
+            "value": "2013"
+        },
+        {
+            "key": 2014,
+            "value": "2014"
+        },
+        {
+            "key": 2015,
+            "value": "2015"
+        },
+        {
+            "key": 2016,
+            "value": "2016"
+        },
+        {
+            "key": 2017,
+            "value": "2017"
+        },
+        {
+            "key": 2018,
+            "value": "2018"
+        },
+        {
+            "key": 2019,
+            "value": "2019"
+        }
+    ],
+    "odometer": [
+        {
+            "key": "",
+            "value": "Odometer"
+        },
+        {
+            "key": 0,
+            "value": "0 - 5000"
+        },
+        {
+            "key": 1,
+            "value": "5000 - 10000"
+        },
+        {
+            "key": 2,
+            "value": "10000 - 15000"
+        },
+        {
+            "key": 3,
+            "value": "> 15000"
+        }
+    ],
+    "silinder": [
+        {
+            "key": "",
+            "value": "Silinder"
+        },
+        {
+            "key": 0,
+            "value": "1.3"
+        },
+        {
+            "key": 1,
+            "value": "1.8"
+        },
+        {
+            "key": 2,
+            "value": "2.0"
+        }
+    ],
+    "tipe": [
+        {
+            "key": "",
+            "value": "Tipe"
+        },
+        {
+            "key": 0,
+            "value": "E"
+        },
+        {
+            "key": 1,
+            "value": "S"
+        },
+        {
+            "key": 2,
+            "value": "RS"
+        },
+        {
+            "key": 3,
+            "value": "G"
+        }
+    ],
+    "grade": [
+        {
+            "key": "",
+            "value": "Grade"
+        },
+        {
+            "key": "A",
+            "value": "A"
+        },
+        {
+            "key": "B",
+            "value": "B"
+        },
+        {
+            "key": "C",
+            "value": "C"
+        },
+        {
+            "key": "D",
+            "value": "D"
+        },
+        {
+            "key": "E",
+            "value": "E"
+        }
+    ],
+    "model": [
+        {
+            "key": "",
+            "value": "Model"
+        },
+        {
+            "key": 0,
+            "value": "Hatchback"
+        },
+        {
+            "key": 1,
+            "value": "Sedan"
+        },
+        {
+            "key": 2,
+            "value": "SUV"
+        },
+        {
+            "key": 3,
+            "value": "Minibus"
+        }
+    ],
+    "warna": [
+        {
+            "key": "",
+            "value": "Warna"
+        },
+        {
+            "key": "SILVER METALIK",
+            "value": "SILVER METALIK"
+        },
+        {
+            "key": "COKELAT MUDA",
+            "value": "COKELAT MUDA"
+        },
+        {
+            "key": "PUTIH",
+            "value": "PUTIH"
+        },
+        {
+            "key": "HITAM",
+            "value": "HITAM"
+        },
+        {
+            "key": "MERAH",
+            "value": "MERAH"
+        },
+        {
+            "key": "SILVER",
+            "value": "SILVER"
+        },
+        {
+            "key": "ABU TUA METALIK",
+            "value": "ABU TUA METALIK"
+        },
+        {
+            "key": "MERAH SOLID",
+            "value": "MERAH SOLID"
+        },
+        {
+            "key": "HITAM METALIK",
+            "value": "HITAM METALIK"
+        },
+        {
+            "key": "MERAH METALIK",
+            "value": "MERAH METALIK"
+        },
+        {
+            "key": "ABU ABU METALIK",
+            "value": "ABU ABU METALIK"
+        },
+        {
+            "key": "ORANGE METALIK",
+            "value": "ORANGE METALIK"
+        },
+        {
+            "key": "BIRU METALIK",
+            "value": "BIRU METALIK"
+        },
+        {
+            "key": "KUNING METALIK",
+            "value": "KUNING METALIK"
+        },
+        {
+            "key": "PUTIH KOMBINASI",
+            "value": "PUTIH KOMBINASI"
+        },
+        {
+            "key": "ABU ABU",
+            "value": "ABU ABU"
+        },
+        {
+            "key": "COKELAT",
+            "value": "COKELAT"
+        },
+        {
+            "key": "HITAM KANZAI",
+            "value": "HITAM KANZAI"
+        },
+        {
+            "key": "KUNING",
+            "value": "KUNING"
+        },
+        {
+            "key": "MERAH MAROON",
+            "value": "MERAH MAROON"
+        },
+        {
+            "key": "BIRU",
+            "value": "BIRU"
+        },
+        {
+            "key": "BIRU TUA METALIK",
+            "value": "BIRU TUA METALIK"
+        },
+        {
+            "key": "ORANYE METALIK",
+            "value": "ORANYE METALIK"
+        },
+        {
+            "key": "HITAM MUTIARA",
+            "value": "HITAM MUTIARA"
+        },
+        {
+            "key": "ORANGE",
+            "value": "ORANGE"
+        },
+        {
+            "key": "COKELAT MUDA METALIK",
+            "value": "COKELAT MUDA METALIK"
+        },
+        {
+            "key": "PUTIH MUTIARA",
+            "value": "PUTIH MUTIARA"
+        },
+        {
+            "key": "PUTIH METALIK",
+            "value": "PUTIH METALIK"
+        },
+        {
+            "key": "ABU ABU BULAN METALIK",
+            "value": "ABU ABU BULAN METALIK"
+        },
+        {
+            "key": "MERAH TUA",
+            "value": "MERAH TUA"
+        },
+        {
+            "key": "COKELAT MUDA",
+            "value": "COKELAT MUDA"
+        },
+        {
+            "key": "ABU ABU MUDA METALIK",
+            "value": "ABU ABU MUDA METALIK"
+        },
+        {
+            "key": "PUTIH ORCHID MUTIARA",
+            "value": "PUTIH ORCHID MUTIARA"
+        },
+        {
+            "key": "UNGU",
+            "value": "UNGU"
+        },
+        {
+            "key": "HIJAU TUA",
+            "value": "HIJAU TUA"
+        },
+        {
+            "key": "HIJAU MUDA METALIK",
+            "value": "HIJAU MUDA METALIK"
+        },
+        {
+            "key": "PERAK METALIK",
+            "value": "PERAK METALIK"
+        },
+        {
+            "key": "HITAM SILVER",
+            "value": "HITAM SILVER"
+        },
+        {
+            "key": "HIJAU",
+            "value": "HIJAU"
+        },
+        {
+            "key": "PUTIH SOLID",
+            "value": "PUTIH SOLID"
+        },
+        {
+            "key": "KUNING KOMBINASI",
+            "value": "KUNING KOMBINASI"
+        },
+        {
+            "key": "HIJAU MUDA",
+            "value": "HIJAU MUDA"
+        },
+        {
+            "key": "HITAM MIKA",
+            "value": "HITAM MIKA"
+        },
+        {
+            "key": "KUNING SILVER",
+            "value": "KUNING SILVER"
+        },
+        {
+            "key": "ABU-ABU",
+            "value": "ABU-ABU"
+        },
+        {
+            "key": "PUTIH ORANGE",
+            "value": "PUTIH ORANGE"
+        },
+        {
+            "key": "MERAH TUA METALIK",
+            "value": "MERAH TUA METALIK"
+        },
+        {
+            "key": "HIJAU METALIK",
+            "value": "HIJAU METALIK"
+        },
+        {
+            "key": "ABU ABU KOMBINASI",
+            "value": "ABU ABU KOMBINASI"
+        },
+        {
+            "key": "COKELAT KOMBINASI",
+            "value": "COKELAT KOMBINASI"
+        },
+        {
+            "key": "HITAM MICA",
+            "value": "HITAM MICA"
+        },
+        {
+            "key": "BIRU MUDA METALIK",
+            "value": "BIRU MUDA METALIK"
+        },
+        {
+            "key": "ABU ABU TUA METALIK",
+            "value": "ABU ABU TUA METALIK"
+        },
+        {
+            "key": "BIRU MUDA",
+            "value": "BIRU MUDA"
+        },
+        {
+            "key": "KUNING PUTIH ",
+            "value": "KUNING PUTIH "
+        },
+        {
+            "key": "HIJAU KOMBINASI",
+            "value": "HIJAU KOMBINASI"
+        },
+        {
+            "key": "KUNING MUDA METALIK",
+            "value": "KUNING MUDA METALIK"
+        },
+        {
+            "key": "DARK",
+            "value": "DARK"
+        }
+    ],
+    {
+        "key": "",
+        "value": "Kota Lelang"
+    },
+    {
+        "key": 0,
+        "value": "Jakarta"
+    },
+    {
+        "key": 1,
+        "value": "Bogor"
+    },
+    {
+        "key": 2,
+        "value": "Bandung"
+    }
+],
+"lokasiUnit": [
+    {
+        "key": "",
+        "value": "Lokasi Unit"
+    },
+    {
+        "key": "Pool",
+        "value": "Pool"
+    },
+    {
+        "key": "Lintas",
+        "value": "Lintas"
+    }
+],
+"platNomor": [
+    {
+        "key": "",
+        "value": "Plat Nomor"
+    },
+    {
+        "key": "B",
+        "value": "B"
+    },
+    {
+        "key": "BL",
+        "value": "BL"
+    },
+    {
+        "key": "BK",
+        "value": "BK"
+    },
+    {
+        "key": "BA",
+        "value": "BA"
+    },
+    {
+        "key": "BM",
+        "value": "BM"
+    },
+    {
+        "key": "BP",
+        "value": "BP"
+    },
+    {
+        "key": "BG",
+        "value": "BG"
+    },
+    {
+        "key": "BN",
+        "value": "BN"
+    },
+    {
+        "key": "BE",
+        "value": "BE"
+    },
+    {
+        "key": "BD",
+        "value": "BD"
+    },
+    {
+        "key": "BH",
+        "value": "BH"
+    },
+    {
+        "key": "D",
+        "value": "D"
+    },
+    {
+        "key": "F",
+        "value": "F"
+    },
+    {
+        "key": "T",
+        "value": "T"
+    },
+    {
+        "key": "E",
+        "value": "E"
+    },
+    {
+        "key": "Z",
+        "value": "Z"
+    },
+    {
+        "key": "H",
+        "value": "H"
+    },
+    {
+        "key": "G",
+        "value": "G"
+    },
+    {
+        "key": "K",
+        "value": "K"
+    },
+    {
+        "key": "R",
+        "value": "R"
+    },
+    {
+        "key": "AA",
+        "value": "AA"
+    },
+    {
+        "key": "AD",
+        "value": "AD"
+    },
+    {
+        "key": "AB",
+        "value": "AB"
+    },
+    {
+        "key": "L",
+        "value": "L"
+    },
+    {
+        "key": "W",
+        "value": "W"
+    },
+    {
+        "key": "N",
+        "value": "N"
+    },
+    {
+        "key": "P",
+        "value": "P"
+    },
+    {
+        "key": "AE",
+        "value": "AE"
+    },
+    {
+        "key": "S",
+        "value": "S"
+    },
+    {
+        "key": "M",
+        "value": "M"
+    },
+    {
+        "key": "DK",
+        "value": "DK"
+    },
+    {
+        "key": "DR",
+        "value": "DR"
+    },
+    {
+        "key": "EA",
+        "value": "EA"
+    },
+    {
+        "key": "DH",
+        "value": "DH"
+    },
+    {
+        "key": "EB",
+        "value": "EB"
+    },
+    {
+        "key": "ED",
+        "value": "ED"
+    },
+    {
+        "key": "KB",
+        "value": "KB"
+    },
+    {
+        "key": "DA",
+        "value": "DA"
+    },
+    {
+        "key": "KH",
+        "value": "KH"
+    },
+    {
+        "key": "KT",
+        "value": "KT"
+    },
+    {
+        "key": "KU",
+        "value": "KU"
+    },
+    {
+        "key": "DB",
+        "value": "DB"
+    },
+    {
+        "key": "DL",
+        "value": "DL"
+    },
+    {
+        "key": "DM",
+        "value": "DM"
+    },
+    {
+        "key": "DN",
+        "value": "DN"
+    },
+    {
+        "key": "DD",
+        "value": "DD"
+    },
+    {
+        "key": "DC",
+        "value": "DC"
+    },
+    {
+        "key": "DT",
+        "value": "DT"
+    },
+    {
+        "key": "DE",
+        "value": "DE"
+    },
+    {
+        "key": "DG",
+        "value": "DG"
+    },
+    {
+        "key": "DS",
+        "value": "DS"
+    },
+    {
+        "key": "PB",
+        "value": "PB"
+    }
+],
+"kepemilikan": [
+    {
+        "key": "",
+        "value": "Kepemilikan"
+    },
+    {
+        "key": "Perorangan",
+        "value": "Perorangan"
+    },
+    {
+        "key": "Perusahaan",
+        "value": "Perusahaan"
+    }
+],
+"stnk": [
+    {
+        "key": "",
+        "value": "Status STNK"
+    },
+    {
+        "key": 1,
+        "value": "Ada"
+    },
+    {
+        "key": 0,
+        "value": "Tidak Ada"
+    }
+],
+"bahanBakar": [
+    {
+        "key": "",
+        "value": "Jenis Bahan Bakar"
+    },
+    {
+        "key": "BENSIN",
+        "value": "BENSIN"
+    },
+    {
+        "key": "SOLAR",
+        "value": "SOLAR"
+    }
+],
+"bpkb": [
+    {
+        "key": "",
+        "value": "Status BPKB"
+    },
+    {
+        "key": 1,
+        "value": "Ada"
+    },
+    {
+        "key": 0,
+        "value": "Tidak Ada"
+    }
+]
+}

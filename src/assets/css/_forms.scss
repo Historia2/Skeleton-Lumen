@@ -1,0 +1,200 @@
+@import 'config';
+
+.form-control {
+    font-weight: normal;
+    font-size: 14px;
+    color: #333333;
+    border-radius: 2px; 
+
+    &:focus{
+        box-shadow: none;
+        border-color: $primary
+    }
+}
+
+.form-control{
+    color: #333333;
+    // &.valid{ border-color: #ced4da; }
+    &.invalid{ border-color: $pp-4; }
+
+    &.disabled, &[disabled]{
+        background: #eeeeee;
+    }
+}
+
+.form-label{
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #666666;
+    font-weight: bold;
+    margin-bottom: 0px;
+    &.black{
+        color: #333333;
+    }
+}
+
+.form-group{
+    width: 100%;
+    margin-bottom: 0px;
+
+    & > div{ margin-bottom: 10px; }
+
+    & > div:last-child { margin-bottom: 0px; }
+
+    .form-item{
+        width: 100%;
+        margin-bottom: 10px;
+
+        .form-label{
+            margin: 0px;
+            font-size: 11px;
+            line-height: 11px;
+        } 
+    }
+
+    .form-item.check{
+        display: flex;
+
+        input{ margin-right: 5px; }
+
+        label, span.label{
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #666666;
+        }
+    }
+
+    .actions{
+        display: flex;
+        &.vertical{
+            flex-direction: column;
+            justify-content: space-between;
+
+            & > * { margin-bottom: 10px; width: 100%; }
+            & > *:last-child { margin-bottom: 0px; }
+        }
+        
+        &.horizontal{
+            flex-direction: row;
+            justify-content: end;
+            
+            & > * { margin-left: 10px; width: auto; }
+            & > *:first-child { margin-left: 0px; }
+        }
+
+        div{
+            height: 14px;
+            line-height: 14px;
+            // color: #888888;
+            font-size: 12px;
+        }
+    }
+}
+
+.button-form{
+    width: 100%;
+    .buttons{
+        width: 100%;
+        display: flex;
+        border-radius: 4px;
+        overflow: hidden;
+        &.invalid { border: 1px solid $pp-4; }
+
+        .btn{
+            border-radius: 0px;
+            color: #666666;
+            background: #eeeeee;
+            flex: 1;
+            line-height: 40px;
+            padding: 10px 0px;
+            font-size: 40px;
+            border: 1px solid #ddd;
+            .icon{
+                font-size: 40px;
+                line-height: 40px;
+                margin-bottom: 5px;
+            }
+            span{
+                line-height: 15px;
+                display: block;
+                font-size: 12px;
+            }
+            &.active{
+                background: $primary;
+                color: #f1f1f1;
+                border-color: $primary;
+            }
+        }
+    }
+}
+
+.range-form{
+    display: flex;
+    flex-wrap: wrap;
+    
+    .form-item{ 
+        width: calc(50% - 10px) !important; 
+        margin-bottom: 0px;
+        .form-control{ margin-bottom: 0px; }
+    }
+    
+        span{ 
+        width: 20px; 
+        text-align: center; 
+        display: block; 
+        line-height: 30px;
+        font-size: 12px;
+    }
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    & > div{
+        margin-bottom: 10px;
+        margin-right: 2%; 
+        width: calc((100% - 20px) / 3);
+        display: flex;
+        height: 30px;
+
+        .filter-form{
+            flex: 1;
+            margin-bottom: 0px;
+            height: 30px !important;
+        }
+        .form-item{
+            width: 100%;
+        }
+        
+        .close{
+            height: 20px;
+            width: 20px;
+            color: #111111;
+            margin:5px 0px 5px 5px;
+            font-size: 22px;
+            display: none;
+        }
+
+        &:hover .close{ display: block; }
+        &:nth-child(3n){ margin-right: 0%; }
+        &:last-child{ margin-bottom: 0px; }
+    }
+    
+}
+
+.form-item.check{
+    display: flex;
+
+    input{
+        margin-right: 5px;
+    }
+
+    label, span.label{
+        font-size: 11px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #666666;
+    }
+}

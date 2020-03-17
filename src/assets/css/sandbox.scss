@@ -1,0 +1,22 @@
+gi.card.items{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item{
+        grid-column: span 1;
+        padding: 20px;
+        margin: 10px;
+        border: 1px solid #dddddd;
+
+        .number{
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+}

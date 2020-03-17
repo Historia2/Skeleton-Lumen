@@ -1,0 +1,262 @@
+.offering-container {
+  &.offering-content {
+    .offering-content_body {
+      cursor: pointer;
+      max-width: 95%;
+      height: fit-content;
+      border-radius: 10px;
+      padding: 15px;
+      background-color: white;
+      border: 1px solid #DCDCDC;
+      -webkit-box-shadow: 10px 10px 13px -7px rgba(179, 179, 179, 0.55);
+      -moz-box-shadow: 10px 10px 13px -7px rgba(179, 179, 179, 0.55);
+      box-shadow: 10px 10px 13px -7px rgba(179, 179, 179, 0.55);
+
+      &.active {
+        border: none;
+        background: rgba(9, 88, 173, 1);
+        background: -moz-linear-gradient(45deg, rgba(9, 88, 173, 1) 0%, rgba(124, 10, 173, 1) 100%);
+        background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(9, 88, 173, 1)), color-stop(100%, rgba(124, 10, 173, 1)));
+        background: -webkit-linear-gradient(45deg, rgba(9, 88, 173, 1) 0%, rgba(124, 10, 173, 1) 100%);
+        background: -o-linear-gradient(45deg, rgba(9, 88, 173, 1) 0%, rgba(124, 10, 173, 1) 100%);
+        background: -ms-linear-gradient(45deg, rgba(9, 88, 173, 1) 0%, rgba(124, 10, 173, 1) 100%);
+        background: linear-gradient(45deg, rgba(9, 88, 173, 1) 0%, rgba(124, 10, 173, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0958ad', endColorstr='#7c0aad', GradientType=1);
+        -webkit-box-shadow: 10px 10px 13px -7px rgba(9, 88, 173, 0.5);
+        -moz-box-shadow: 10px 10px 13px -7px rgba(9, 88, 173, 0.5);
+        box-shadow: 10px 10px 13px -7px rgba(9, 88, 173, 0.5);
+
+        .offering-content_body-title {
+          span{
+            color: white;
+          }
+          .offering-content_body-title-text {
+            color: #C9CACA;
+            font-size: 9pt;
+            max-width: 111px;
+            text-overflow: ellipsis;
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            margin-bottom: -3px;
+          }
+        }
+
+        .offering-content_body-content {
+          .offering-content_body-content-price {
+            color: #FEFEFE;
+          }
+
+          sub {
+            color: white;
+            font-size: 9pt;
+            top: -10px;
+
+            svg {
+              margin-right: 5px;
+              top: -1.3px;
+              position: inherit;
+            }
+          }
+        }
+      }
+
+      .offering-content_body-title {
+        .offering-content_body-title-text {
+          font-size: 9pt;
+          max-width: 111px;
+          text-overflow: ellipsis;
+          display: inline-block;
+          overflow: hidden;
+          white-space: nowrap;
+          margin-bottom: -3px;
+        }
+      }
+
+      .offering-content_body-content {
+        .offering-content_body-content-price {
+          //font-size: 35pt;
+        }
+
+        sub {
+          font-size: 9pt;
+          top: -10px;
+
+          svg {
+            margin-right: 5px;
+            top: -1.3px;
+            position: inherit;
+          }
+        }
+      }
+
+    }
+  }
+}
+.table-subscriptions {
+  #table-result_wrapper {
+    box-shadow: inset 1px 5px 13px -7px rgba(179, 179, 179, 0.55);
+  }
+  #table-result_filter {
+    display: none !important;
+  }
+  #table-result_processing {
+    color: red !important;
+  }
+  
+  .dataTables_wrapper {
+    background: white;
+  
+    .table {
+      &.table-result {
+        thead {
+          tr {
+            th {
+              border: 0;
+              font-size: 10pt;
+              height: 80px;
+              vertical-align: middle;
+              padding: 0 30px !important;
+            }
+          }
+        }
+      }
+  
+      tbody {
+        tr {
+          td {
+            vertical-align: middle;
+            border: 0;
+            font-size: 10pt;
+            padding: 0 30px !important;
+            height: 80px;
+            vertical-align: middle;
+          }
+        }
+  
+        height: auto !important;
+      }
+  
+      tbody, thead {
+        td:nth-child(1) {
+          //width: 400px !important;
+        }
+      }
+    }
+  
+    .dataTables_info,
+    .dataTables_paginate {
+      padding: 0 30px;
+    }
+  
+    .download-invoice {
+      cursor: pointer;
+    }
+  }
+  
+  .table-header {
+    background: white;
+    border-radius: 10px 10px 0 0;
+    height: auto;
+  
+    .table-header_title {
+      padding-top: 25px;
+      padding-right: 35px;
+    }
+  
+    .table-header_filter {
+      .table-header_filter-icon {
+        :hover {
+          color: #1e4da9;
+        }
+  
+        cursor: pointer;
+  
+        .table-header_filter-icon-label {
+  
+        }
+      }
+    }
+  }
+}
+
+.circle {
+  display: flex;
+  border: 2px solid;
+  border-radius: 100%;
+  padding: 14px;
+}
+
+//preview
+.preview-container {
+  max-height: 100vh;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+  .preview-content {
+    box-shadow: 10px 10px 13px -7px rgba(179, 179, 179, 0.55);
+    background-color: white;
+    .preview-header {
+      background: $primary;
+    }
+
+    .preview-body {
+      min-height: 700px;
+
+      .preview-company-info {
+        .preview-company-info_address {
+          font-size: 10pt;
+        }
+      }
+
+      .preview-user-info {
+        .preview-user-info_address {
+          font-size: 10pt;
+        }
+      }
+
+      .preview-package-info {
+        .preview-package-info_desc {
+          font-size: 10pt;
+        }
+      }
+
+      .preview-table {
+        table {
+          padding: 0;
+        }
+      }
+
+      .preview-total {
+        sup {
+          color: #888;
+        }
+      }
+    }
+    .preview-footer {
+      font-size: 10pt;
+    }
+  }
+}
+//payment
+.success-container {
+  height: 100vh;
+  max-height: 100vh;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+  .row {
+    height: 100vh;
+    .success-body {
+      height: 50vh;
+      margin-top: auto;
+      margin-bottom: auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 10px 10px 13px -7px rgba(179, 179, 179, 0.55);
+      .success-body_text {
+        color: $primary;
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.table-spec{
+    width: 100%;
+    table-layout: fixed;
+
+    tr{
+        line-height: 30px;
+        min-height: 40px;
+        font-size: 14px;
+
+        td{
+            padding: 5px 20px;
+            min-width: 50%;
+            vertical-align: top;
+
+            & > *{
+                vertical-align: top;
+            }
+
+            .label{
+                display: inline-block;
+                width: 40%;
+                color: #777777;
+                padding-right: 10px;
+            }
+
+            .value{
+                width: 60%;
+                display: inline-block;
+            }
+        }
+
+        td[colSpan="2"]{
+            .label{ width: 20%; }
+            .value{ width: 80%; }
+        }
+    }
+
+    tr:nth-child(2n){
+        background: #f3f3f3;
+    }
+}

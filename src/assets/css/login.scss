@@ -1,0 +1,115 @@
+@import 'config';
+
+.landing-page{
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: 1fr 540px;
+    height: 100%;
+    background: url("assets/images/default_landing.jpg");
+    background-size: cover;
+    overflow-y: auto;
+
+    .left, .right {
+        background: rgba(65, 18, 132, 0.76);
+    }
+
+    .left{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #eeeeee;
+        text-align: left;
+        padding: 100px;
+
+        .logo{
+            width: 80px;
+            margin-bottom: 40px;
+
+            img{ width: 100%; }
+        }
+
+        h1{ margin-bottom: 40px; }
+
+        p{
+            font-size: 20px;
+            line-height: 1.5;
+            width: 80%;
+        }
+    }
+
+    .right{
+        padding: 100px;
+        // grid-area: sign;
+        widows: 100%;
+
+        .sign-container{
+            display: flex;
+            flex-direction: column;
+            padding: 40px 40px;
+            background: #ffffff;
+            border-radius: 4px;
+        }
+
+        .sign-container .actions .split{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            height: 20px;
+
+            a, .remember{
+                font-size: 12px;
+                line-height: 20px;
+                height: 20px;
+                width: auto !important;
+            }
+
+            .remember{
+                display: flex;
+                span { margin-left: 5px; color: #666666; }
+            }
+        }
+
+        .title{
+            line-height: 30px;
+            margin-bottom: 20px;
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.form-check{
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1199.98px) {
+    .landing-page{
+        .left{
+            padding: 60px;
+            p{
+                width: 100%;
+            }
+        }
+        .right{ padding: 60px; }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .landing-page{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        .left{
+            padding: 40px;
+            p{ width: 100%; }
+        }
+        .right{
+            padding: 0px;
+            .sign-container{
+                padding: 40px 40px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,81 @@
+@import "config";
+
+.chart-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.chart, {
+    .action{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        div{ min-width: calc(60% - 5px); }
+        div:last-child{ min-width: calc(40% - 5px); }
+    }
+}
+
+.row.wr{
+    padding: 30px 15px;
+    margin: 0px;
+}
+
+.forms-group{
+    background: #f5f5f5;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+
+    .title{
+        display: block;
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333333;
+        
+        &.link{
+            cursor: pointer;
+            font-weight: bold;
+            color: $primary;
+        }
+    }
+    
+
+    .form-control{
+        margin-bottom: 10px;
+    }
+
+    &:last-child{ margin-bottom: 0px; }
+}
+
+
+.inline-form{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+
+    .field{
+        input{ margin: 0px; }
+        width: calc(70% - 5px);
+    }
+
+    .label{
+        line-height: 30px;
+        width: calc(30% - 5px);
+    }
+
+}
+
+.tip-title{
+    font-size: 12px;
+    font-weight: 12px;
+}
+
+.tip-desc, .tip-desc *{
+    font-size: 9px;
+}

@@ -1,0 +1,220 @@
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/series-label.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+
+<div id="container"></div>
+
+
+<script>
+    Highcharts.chart('container', {
+        chart: {
+            zoomType: 'xy'
+        },
+        title: {
+            text: 'Penjualan Avanza',
+            align: 'left'
+        },
+        subtitle: {
+            text: 'Source: ibid.astra.co.id',
+            align: 'left'
+        },
+        xAxis: [{
+            categories: ['80 jt', '80.5 jt', '90 jt', '90.5 jt', '91 jt', '91.5 jt',
+                '92 jt', '92.5 jt', '93 jt', '93.5 jt', '94 jt', '94.5 jt'],
+            crosshair: true
+        }],
+        yAxis: [{ // Primary yAxis
+            labels: {
+                format: '{value} Transaksi',
+                style: {
+                    color: Highcharts.getOptions().colors[2]
+                }
+            },
+            title: {
+                text: 'Unit Titip',
+                style: {
+                    color: Highcharts.getOptions().colors[2]
+                }
+            },
+            opposite: true
+
+        }, { // Secondary yAxis
+            gridLineWidth: 0,
+            title: {
+                text: 'Rainfall',
+                style: {
+                    color: Highcharts.getOptions().colors[0]
+                }
+            },
+            labels: {
+                format: '{value} Transaksi',
+                style: {
+                    color: Highcharts.getOptions().colors[0]
+                }
+            }
+
+        }, { // Tertiary yAxis
+            gridLineWidth: 0,
+            title: {
+                text: 'Jumlah Bid',
+                style: {
+                    color: Highcharts.getOptions().colors[1]
+                }
+            },
+            labels: {
+                format: '{value} bid',
+                style: {
+                    color: Highcharts.getOptions().colors[1]
+                }
+            },
+            opposite: true
+        }],
+        tooltip: {
+            shared: true
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'left',
+            x: 80,
+            verticalAlign: 'top',
+            y: 55,
+            floating: true,
+            backgroundColor:
+                Highcharts.defaultOptions.legend.backgroundColor || // theme
+                'rgba(255,255,255,0.25)'
+        },
+        series: [{
+            name: 'Jumlah Transaksi',
+            type: 'column',
+            yAxis: 1,
+            data: [80, 120, 30, 40, 50, 90, 60, 25, 10, 5, 4, 1],
+            tooltip: {
+                valueSuffix: ' Transaksi'
+            }
+
+        }, {
+            name: 'Demand',
+            type: 'spline',
+            yAxis: 2,
+            data: [50, 45, 40, 35, 30, 29, 26, 22, 15, 10, 5, 2],
+            marker: {
+                enabled: false
+            },
+            dashStyle: 'shortdot',
+            tooltip: {
+                valueSuffix: ' bid'
+            }
+
+        }, {
+            name: 'Unit Titip',
+            type: 'spline',
+            data: [80, 85, 90, 95, 100, 105, 115, 125, 145, 160, 180, 200],
+            tooltip: {
+                valueSuffix: ' Unit'
+            }
+        }],
+        responsive: {
+            rules: [{
+                condition: {
+                    maxWidth: 500
+                },
+                chartOptions: {
+                    legend: {
+                        floating: false,
+                        layout: 'horizontal',
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        x: 0,
+                        y: 0
+                    }
+                }
+            }]
+        }
+    }
+    );
+</script>
+
+
+<div class="footer-report">
+    <p>Syarat & Ketentuan :</p>
+    <p>Hasil inspeksi dapat berubah sewaktu-waktu tergantung pada pemakaian</p>
+    <p>dan perawatan setelah inspeksi.</p>
+    <img src="http://staging.acv-astra.co.id/img/line-footer.png" class="img-responsive">
+    <h4>Info lebih lanjut kunjungi <strong>acv.astra.co.id</strong> atau hubungi <strong>info@acv.astra.co.id</strong>
+    </h4>
+</div>
+</div>
+
+
+<form action="https://staging.doku.com/Suite/Receive" method="post">
+        <input type="hidden" name="MALLID" value="7051"><input type="hidden" name="SHAREDKEY" value="qJ24c0TfN3Dm">
+        <input type="hidden" name="WORDS" value="f5c4747b0de7146a8d0b90eabcaaf1c76cef869a">
+        <input type="hidden" name="BASKET" value="Item1,300000.00"><input type="hidden" name="CHAINMERCHANT" value="NA">
+        <input type="hidden" name="CURRENCY" value="360"><input type="hidden" name="PURCHASECURRENCY" value="360"><input
+        type="hidden" name="PURCHASEAMOUNT" value="300000.00"><input type="hidden" name="AMOUNT"
+                                                                     value="300000.00"><input type="hidden"
+                                                                                              name="TRANSIDMERCHANT"
+                                                                                              value="MAP-12-Sep19-U32-04"><input
+        type="hidden" name="REQUESTDATETIME" value="20190912045539"><input type="hidden" name="SESSIONID"
+                                                                           value="1591793d5c7c65dddf5c097cd2f6de478541ab46"><input
+        type="hidden" name="PAYMENTCHANNEL" value="NA"><input type="hidden" name="EMAIL"
+                                                              value="fennedi.wijaya@gmail.com"><input type="hidden"
+                                                                                                      name="NAME"
+                                                                                                      value="fennedi wijaya"><input
+        type="hidden" name="ADDRESS" value="NA"><input type="hidden" name="CITY" value="NA"><input type="hidden"
+                                                                                                   name="COUNTRY"
+                                                                                                   value="NA"><input
+        type="hidden" name="STATE" value="NA"><input type="hidden" name="PROVINCE" value="NA"><input type="hidden"
+                                                                                                     name="SHIPPING_ADDRESS"
+                                                                                                     value="NA"><input
+        type="hidden" name="ZIPCODE" value="NA"><input type="hidden" name="SHIPPING_CITY" value="NA"><input
+        type="hidden" name="SHIPPING_COUNTRY" value="ID"><input type="hidden" name="SHIPPING_ZIPCODE"
+                                                                value="12210"><input type="hidden" name="HOMEPHONE"
+                                                                                     value=""><input type="hidden"
+                                                                                                     name="MOBILEPHONE"
+                                                                                                     value=""><input
+        type="hidden" name="WORKPHONE" value=""><input type="hidden" name="BIRTHDATE" value="19830311"><input
+        type="hidden" name="ADDITIONALDATA" value="Tempore id atque et rerum.">
+    <button class="btn btn-lg ibid primary"> Proses</button>
+</form>
+
+<form action="{{ env('DOKU_LINK') }}" id="MerchatPaymentPage" name="MerchatPaymentPage" method="post">
+    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+    <input name="BASKET" type="hidden" id="BASKET" value="Item 1,{{ $data->TotalPayment }},1,{{ $data->TotalPayment }}" size="100" />
+    <table class="table table-bordered">
+
+        <input name="MALLID" type="hidden" id="MALLID" value="{{ env('DOKU_MALL_ID') }}">
+        <input name="CHAINMERCHANT" type="hidden" id="CHAINMERCHANT" value="NA">
+        <input name="CURRENCY" type="hidden" id="CURRENCY" value="360">
+        <input name="PURCHASECURRENCY" type="hidden" id="PURCHASECURRENCY" value="360">
+        <input name="PURCHASEAMOUNT" type="hidden" id="PURCHASEAMOUNT" value="{{ number_format($data->TotalPayment,2, '.','') }}">
+        <input name="SHAREDKEY" type="hidden" id="SHAREDKEY" value="{{ env('DOKU_SHARED_KEY') }}">
+        <input name="AMOUNT" type="hidden" id="AMOUNT" value="{{ $data->TotalPayment }}" size="12" />
+        <input name="TRANSIDMERCHANT" type="hidden" id="TRANSIDMERCHANT" size="16" value="{{ $data->InvoiceNumber }}" />
+        <input type="hidden" id="WORDS" name="WORDS" value="{{ sha1(number_format($data->TotalPayment,2, '.','') . env('DOKU_MALL_ID') .  env('DOKU_SHARED_KEY') . $data->InvoiceNumber) }} "  size="60" />
+        <input name="REQUESTDATETIME" type="hidden" id="REQUESTDATETIME" size="20" value="{{ date('YmdHis') }}" maxlength="14" />
+        <input type="hidden" id="SESSIONID" name="SESSIONID" size="25" value="{{ sha1(date('YmdHis')) }}" />
+        <input type="hidden" id="PAYMENTCHANNEL" name="PAYMENTCHANNEL" value="" />
+        <input name="EMAIL" type="hidden" id="EMAIL" value="{{ $data->Email }}" readonly="" class="form-control" />
+        <input name="NAME" type="hidden" id="NAME" value="{{ $data->FullName }}" readonly="" class="form-control" size="30" maxlength="25" />
+        <input type="hidden" name="ADDRESS" id="ADDRESS" value="{{ $data->Address }}">
+        <input name="CITY" type="hidden" id="CITY" value="{{ $data->City }}"  class="form-control" size="30" maxlength="50" readonly="" />
+
+        <input name="COUNTRY" type="hidden" id="COUNTRY" value="360" size="12" maxlength="50" /></td>
+        <input name="STATE" type="hidden" id="STATE" value="{{ $data->City }}" size="50" maxlength="50" />
+        <input name="PROVINCE" type="hidden" id="PROVINCE" value="{{ $data->City }}" size="50" maxlength="50" />
+        <input name="SHIPPING_ADDRESS" type="hidden" id="SHIPPING_ADDRESS" value="{{ $data->City }}" size="50" maxlength="10" />
+        <input name="ZIPCODE" type="hidden" id="ZIPCODE" value="12210" size="6" maxlength="10" />
+        <input name="SHIPPING_CITY" type="hidden" id="SHIPPING_CITY" value="{{ $data->City }}" size="50" maxlength="10" />
+        <input name="SHIPPING_COUNTRY" type="hidden" id="SHIPPING_COUNTRY" value="ID" size="3" maxlength="10" />
+        <input name="SHIPPING_ZIPCODE" type="hidden" id="SHIPPING_ZIPCODE" value="12210" size="6" maxlength="10" />
+        <input name="HOMEPHONE" type="hidden" id="HOMEPHONE" value="{{ $data->PhoneNumber }}" size="12" maxlength="20" />
+        <input name="MOBILEPHONE" type="hidden" id="MOBILEPHONE" value="{{ $data->PhoneNumber }}" size="12" maxlength="20" />
+        <input name="WORKPHONE" type="hidden" id="WORKPHONE" value="{{ $data->PhoneNumber }}" size="12" maxlength="20" />
+        <input name="BIRTHDATE" type="hidden" id="BIRTHDATE" value="19830311" size="12" maxlength="8" />
+        <input name="ADDITIONALDATA" type="hidden" id="ADDITIONALDATA" value="{{ $data->TypeInspectionName . ' ' .$data->PackageName }} " size="100" maxlength="1024" />
+
+        <center> <input name="submit" type="submit" class="btn btn-success btn-large " id="submit" value="Lanjutkan" /> </center>
+        <br><br><br><br>
+</form>

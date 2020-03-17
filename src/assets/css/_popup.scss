@@ -1,0 +1,128 @@
+@import 'config';
+
+
+.modal.custom{
+    border: none;
+
+    .modal-content{
+        border-width: 0px;
+        border-radius: 5px;
+    }
+
+    .modal-header{
+        padding: 30px;
+        border-width: 0px;
+        background: $primary;
+
+        .title{
+            margin: auto;
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+
+    .modal-body{
+        padding: 20px;
+
+        & > div{ margin-bottom: 10px; }
+        & > div:last-child{ margin-bottom: 0px; }
+    }
+}
+
+.modal-open{
+    .body{
+        z-index: auto;
+    }
+}
+
+#profileCard {
+    .close{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .modal-dialog{ width: 400px; }
+}
+    
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    $pic-size: 160px;
+    
+    
+
+    .picture{
+        width: $pic-size;
+        height: $pic-size;
+        border-radius: $pic-size;
+        overflow: hidden;
+        margin: 20px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .description{
+        padding: 5px 0px;
+        width: 100%;
+        cursor: default;
+
+        & > span {
+            font-size: 16px;
+            line-height: 16px;
+            height: 16px;
+        }
+
+        .username{
+            $size: 24px;
+            font-size: $size;
+            line-height: $size;
+            height: $size;
+        }
+
+        .email{
+            $size: 16px;
+            font-size: $size;
+            line-height: $size;
+            height: $size;
+            color: #777777;
+            margin-bottom: 5px;
+        }
+
+        .company{ 
+            margin-bottom: 5px;
+        }
+        hr{ margin: 10px 0px 10px; }
+
+        .status{
+            display: flex;
+            line-height: 30px;
+            height: 30px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            
+            div{ font-size: 14px }
+
+            .flag{
+                color: #fff;
+                margin: 0px 5px;
+                line-height: 15px;
+                height: 25px;
+                padding: 5px 20px;
+                background: $pp-4;
+                border-radius: 4px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,26 @@
+.split{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    & > * {
+        width: calc(50% - 5px) !important;
+    }
+}
+
+.split-3{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+
+    & > * {
+        width: calc((100% / 3) - 5px) !important;
+        margin-right: calc((5px * 3) / 2); 
+    }
+
+    & > *:nth-child(3n) {
+        margin-right: 0px;
+    }
+}

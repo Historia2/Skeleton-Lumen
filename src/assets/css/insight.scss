@@ -1,0 +1,248 @@
+
+.widgets {
+  width: 100%;
+  display: flex;
+
+  .board {
+    width: 50%;
+    margin: 5px;
+    padding: 10px;
+    border: 2px dashed transparent;
+
+    &.hovered {
+      border: 2px dashed #d5d5d5;
+    }
+  }
+
+  .widget {
+    padding: 0px;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    animation: show 1s;
+    pointer-events: auto;
+
+    .header {
+      cursor: move;
+      background: $primary;
+      color: #fff;
+      display: flex;
+      height: 60px;
+      padding: 20px;
+      justify-content: space-between;
+
+      .title {
+        margin: 0px;
+      }
+    }
+
+    .header > .action {
+      display: flex;
+
+      .icon {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        margin-left: 5px;
+        display: flex;
+
+        & > * {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+
+    .header:active {
+      cursor: grabbing;
+    }
+
+    .body {
+      padding: 10px 20px;
+
+      .chart {
+        .chart-title {
+          font-size: 12px;
+          margin-bottom: 10px;
+          text-align: center;
+          display: block;
+        }
+
+        .chart-content table thead th {
+          width: calc(100% / 8) !important;
+        }
+      }
+    }
+  }
+
+  .tile {
+    &::before {
+      content: '';
+      height: 200px;
+      width: 100%;
+      display: none;
+      margin-bottom: 20px;
+      border: 2px dashed #ddd;
+      border-radius: 5px;
+    }
+
+    &:last-child .card {
+      margin-bottom: 0px;
+    }
+
+    &.hovered::before {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .widgets {
+    flex-direction: column;
+
+    .board {
+      width: 100%;
+    }
+  }
+}
+
+
+@media (max-width: 991.98px) {
+  .detail .specs {
+    .label, .value {
+      width: 50%;
+    }
+  }
+}
+
+//rate
+.rate-container {
+  width: 100%;
+  background: white;
+  padding: 10px;
+}
+
+//car-list
+.car-list-container {
+  max-height: 350px;
+  overflow-y: scroll;
+  padding-left: 33px;
+  padding-top: 15px;
+  box-shadow: inset -3px -2px 7px 0px rgba(179, 179, 179, 0.55);
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $primary;
+    border-radius: 23px;
+  }
+
+  .car-list-container_body {
+    cursor: pointer;
+
+    &:hover {
+      .car-list-container_body-image_pillar {
+        background: $primary !important;
+      }
+    }
+
+    .car-list-container_body-image {
+      .car-list-container_body-image_pillar {
+        content: '';
+        background: #dddddd;
+        width: 10px;
+        height: 114%;
+        display: block;
+        position: absolute;
+        border-radius: 20px;
+        left: -18px;
+        top: -7px;
+      }
+      height: fit-content;
+      box-shadow: 3px 5px 10px 0 rgba(179, 179, 179, 0.55);
+    }
+
+    .car-list-container_body-description {
+      &:hover {
+        .car-list-container_body-description_button {
+          display: block;
+        }
+      }
+      .car-list-container_body-description_button {
+        &:hover {
+          color: red;
+        }
+        display: none;
+        float: left;
+        height: 12px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        margin-right: 5px;
+        width: auto;
+        background: none;
+        font-size: 10pt;
+        bottom: 4px;
+        position: absolute;
+        color: #bfbfbf;
+      }
+      svg {
+        margin-right: 3px;
+      }
+
+      h6 {
+        height: fit-content;
+        align-self: center;
+        color: red;
+      }
+
+      .car-list-container_body-description-content {
+        padding: 9px 15px;
+
+        .car-list-container_body-description_title {
+          margin-bottom: 0;
+        }
+
+        .car-list-container_body-description_price {
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+//search list
+.search-list-container {
+  .search-list-body {
+    .search-list-body_input {
+      input {
+        padding-left: 15px;
+        width: 100%;
+        background: #ddd;
+        outline: none;
+        border: none;
+        border-radius: 6px;
+        height: 100%;
+      }
+
+      ::placeholder {
+        left: 20px;
+        color: #A3A0A3;
+      }
+    }
+
+    .search-list-body_button {
+      .search-list-body_button-filter {
+        border-radius: 6px;
+
+      }
+    }
+  }
+}
